@@ -4,6 +4,17 @@ fn main() {
     println!("value from fn five {}", five());
     //println!("value from fn six {}", six());
 }
+/// Funcion que llama a otra function
+///
+/// # Arguments
+///
+/// * `p` - Un entero para calcular
+///
+/// # Examples
+///
+/// ```
+/// [TODO:example]
+/// ```
 fn another_function(p: u8) {
     println!("in function, value {}!", p);
 
